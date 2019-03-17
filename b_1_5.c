@@ -1,20 +1,19 @@
 #include<stdio.h>
 int main()
 {
-int n,a[5],c=0;
-scanf("%d",&n);
-for(i=0;i<n;i++)
+int a=34,b=44,c=87;
+if(a>b&&a>c)
 {
-scanf("%d",&a[i]);
+printf("%d",a);
 }
-for(k=0;k<n;k++)
+else if(b>c&&b>a)
 {
-if(a[k]>c)
+printf("%d",b);
+}
+else
 {
-c=a[k];
-}
-}
 printf("%d",c);
+}
 return 0;
 }
 
